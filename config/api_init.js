@@ -1,0 +1,6 @@
+const DaltonAdminApi = require('../lib/dalton_admin_api')
+const DaltonCoreApi = require('../lib/dalton_core_api')
+const TestUserAccount = require('../lib/create_user')
+global.daltonAdminApiRequest = new DaltonAdminApi()
+global.daltonCoreApiRequest = new DaltonCoreApi()
+global.testUserAccount = new TestUserAccount()
